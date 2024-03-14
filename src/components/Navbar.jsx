@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="absolute w-full p-4 flex justify-between">
+    <div className="absolute w-full p-4 flex justify-between z-50">
       <Link to="/">
         <h1 className="uppercase text-red-600 font-nsans-bold text-5xl">
-          Movix
+          Netflix
         </h1>
       </Link>
 
